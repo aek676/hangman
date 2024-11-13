@@ -18,7 +18,7 @@ export const Keyboard = ({
   };
 
   return (
-    <div>
+    <div className="space-x-1">
       {Array.from(Array(26)).map((_, index) => (
         <button
           key={index}
